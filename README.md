@@ -1,48 +1,60 @@
-# Machine-Learning
+# Machine-Learning-Projekt: Stellar Classification Dataset - SDSS17
 
 ### Gewählter Datensatz
-Name: Laptop Price Prediction Dataset
-Quelle: Öffentliche Datenquelle  (Kaggle.com)
-Lizenz: CC0: Public Domain
-Anzahl der Einträge: 11.768 Zeilen, 11 Spalten
+Name: Stellar Classification Dataset - SDSS17
+Quelle: Öffentliche Datenquelle (Kaggle.com)
+Lizenz: Public Domain (SDSS)
+Anzahl der Einträge: 100.000 Zeilen, 18 Spalten
 
 ### Warum dieser Datensatz?
-Ich habe diesen Datensatz gewählt, da ich selbst einen Laptop benutze und es spannend finde, zu analysieren, welche Faktoren den Preis eines Laptops beeinflussen und wie teuer ein Laptop sein kann. Der Datensatz bietet:
-- Reale Zusammenhänge zwischen Spezifikationen und Preis.
-- Eine gute Basis zur Preisprognose und Marktanalyse für zukünftige Laptops.
+Ich habe diesen Datensatz gewählt, da die Klassifikation von Himmelsobjekten eine spannende Anwendung für Machine Learning ist. Besonders interessant ist es, zu analysieren, welche Faktoren eine Rolle spielen, um Sterne, Galaxien und Quasare voneinander zu unterscheiden. Der Datensatz bietet:
+- Reale astronomische Beobachtungen zur Kategorisierung von Objekten im Universum.
+- Eine wissenschaftlich relevante Basis für Supervised Learning (Klassifikation).
+- Die Möglichkeit, astronomische Muster durch Clustering oder Anomalieerkennung zu entdecken.
 
 
 ## Datensatzbeschreibung
 
-Der Laptop Price Prediction Dataset enthält Informationen zu Laptop-Modellen mit ihren Hardware-Spezifikationen und Preisen. Ziel ist es, ein eigenes Machine-Learning-Modell zu entwickeln, die den Preis eines Laptops basierend auf seinen Eigenschaften (Spezifikationen) vorhersagen kann.
+Der Stellar Classification Dataset - SDSS17 enthält 100.000 Beobachtungen aus dem Sloan Digital Sky Survey (SDSS), einer der größten astronomischen Datenbanken. Ziel ist es, Machine-Learning-Modelle zu entwickeln, die basierend auf spektralen Merkmalen automatisch Sterne, Galaxien oder Quasare klassifizieren können.
 
 ### Beschreibung
 
-Marke: Hersteller des Laptops (z. B. Dell, HP, Apple, Lenovo).
+obj_ID: Einzigartige ID für jedes Objekt in der SDSS-Datenbank.
 
-Prozessor: CPU-Typ (Intel oder AMD).
+alpha, delta: Himmelskoordinaten (Rektaszension & Deklination).
 
-RAM & Speicher: Arbeitsspeicher und Festplattentyp (SSD/HDD).
+u, g, r, i, z: Helligkeitswerte in verschiedenen Spektralbändern.
 
-Grafikprozessor: Integrierte oder dedizierte GPU.
+class: Zielvariable (Stern, Galaxie oder Quasar).
 
-Bildschirmgröße & Auflösung: Einfluss auf die Preisgestaltung.
+redshift: Maß für die Rotverschiebung – gibt Hinweise auf die Entfernung.
 
-Batterielaufzeit & Gewicht: Faktoren für Mobilität und Marktwert.
-
-Preis: Zielvariable für die Vorhersagemodelle.
+plate, MJD, fiber_ID: Technische Identifikatoren für die Beobachtung.
 
 
 ### Datenschutzmassnahmen
 
-Der Datensatz enthält keine persönlichen Daten von Käufern oder Herstellern.
+Der Datensatz enthält keine persönlichen Daten und wurde ausschließlich für wissenschaftliche Zwecke erhoben.
 
-Alle Informationen sind öffentliche Produktdaten und beeinträchtigen keine Datenschutzrichtlinien.
+Alle Informationen sind frei verfügbar und öffentlich zugänglich.
 
-Die Daten stammen aus realen Quellen, jedoch ohne individuelle Nutzerinformationen.
+Die Daten stammen von einer astronomischen Himmelsbeobachtung und beeinträchtigen keine Datenschutzrichtlinien.
 
 
 
 ### Einschränkungen des Datensatzes
 
-Ein Nachteil dieses Datensatzes ist, dass er nicht immer up to date sein wird, da sich die Technologie und Hardware-Spezifikationen ständig weiterentwickeln. Neue Prozessoren, Grafikkarten und Speichertechnologien erscheinen regelmässig, was bedeutet, dass ältere Modelle möglicherweise nicht mehr auf dem Markt verfügbar sind und Preisprognosen für zukünftige Modelle schwieriger werden. Daher würde eine regelmässige Aktualisierung des Datensatzes aus neuen Datenquellen hilfreich sein.
+Ein Nachteil dieses Datensatzes ist, dass er keine Zeitreiheninformationen enthält – zukünftige oder sich verändernde Objekte können nicht vorhergesagt werden. Zudem sind einige Kategorien möglicherweise nicht gleichmäßig verteilt, was zu Class Imbalance führen könnte. Eine Verbesserung wäre die Ergänzung weiterer astronomischer Merkmale oder neuer Daten aus zukünftigen SDSS-Releases.
+
+
+## Mögliche Machine-Learning-Anwendungen
+- Klassifikation: Vorhersage, ob ein Objekt ein Stern, eine Galaxie oder ein Quasar ist.
+- Clustering: Entdeckung unbekannter Gruppen oder Muster in den Daten.
+- Anomalieerkennung: Identifikation von seltenen oder aussergewöhnlichen Objekten.
+
+### Randinfos
+Ich habe den Stellar Classification Dataset - SDSS17 gewählt, weil mich das Universum und die Astrophysik schon immer fasziniert haben. Schon als Kind habe ich gerne Dokumentationen über den Weltraum geschaut und mir vorgestellt, wie es wäre, ferne Galaxien zu erforschen. Einer meiner Lieblingsfilme ist Interstellar, weil er auf spannende Weise Wissenschaft und Science-Fiction verbindet.
+
+Mit diesem Datensatz kann ich meine Begeisterung für den Weltraum mit Machine Learning verknüpfen. Ich finde es spannend, dass echte astronomische Beobachtungen aus dem Sloan Digital Sky Survey (SDSS) genutzt werden können, um Sterne, Galaxien und Quasare automatisch zu klassifizieren. Das zeigt, wie moderne Technologien uns helfen, das Universum besser zu verstehen.
+
+Besonders interessant finde ich, dass die Rotverschiebung (Redshift) im Datensatz enthalten ist, die eine entscheidende Rolle bei der Erforschung der Expansion des Universums spielt. Mit Machine Learning kann ich untersuchen, welche Merkmale dabei helfen, Himmelsobjekte voneinander zu unterscheiden – genau wie Astronomen es in der realen Forschung tun. Dieses Projekt gibt mir die Möglichkeit, mit echten Weltraumdaten zu arbeiten und mein Wissen über KI und Astrophysik zu erweitern.
