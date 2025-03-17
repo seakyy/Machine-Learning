@@ -24,9 +24,10 @@ obj_ID: Einzigartige ID für jedes Objekt in der SDSS-Datenbank.
 alpha, delta: Himmelskoordinaten (Rektaszension & Deklination).
 
 u, g, r, i, z: Helligkeitswerte in verschiedenen Spektralbändern.
+(ultraviolett; grün; rot; Licht im nahen Infrafrotbereich; Licht im weiten Infrarotbereich)
 
 class: Zielvariable (Stern, Galaxie oder Quasar).
-
+(Heisser Glaskörper - Lichterzeugung durch Kernfusion; Ansammlung von Sternen, Gas, Staub; Heller Kern einer galaxie - sehr weit entfernt)
 redshift: Maß für die Rotverschiebung – gibt Hinweise auf die Entfernung.
 
 plate, MJD, fiber_ID: Technische Identifikatoren für die Beobachtung.
