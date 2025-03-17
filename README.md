@@ -58,3 +58,11 @@ Ich habe den Stellar Classification Dataset - SDSS17 gewählt, weil mich das Uni
 Mit diesem Datensatz kann ich meine Begeisterung für den Weltraum mit Machine Learning verknüpfen. Ich finde es spannend, dass echte astronomische Beobachtungen aus dem Sloan Digital Sky Survey (SDSS) genutzt werden können, um Sterne, Galaxien und Quasare automatisch zu klassifizieren. Das zeigt, wie moderne Technologien uns helfen, das Universum besser zu verstehen.
 
 Besonders interessant finde ich, dass die Rotverschiebung (Redshift) im Datensatz enthalten ist, die eine entscheidende Rolle bei der Erforschung der Expansion des Universums spielt. Mit Machine Learning kann ich untersuchen, welche Merkmale dabei helfen, Himmelsobjekte voneinander zu unterscheiden – genau wie Astronomen es in der realen Forschung tun. Dieses Projekt gibt mir die Möglichkeit, mit echten Weltraumdaten zu arbeiten und mein Wissen über KI und Astrophysik zu erweitern.
+
+
+### Was kann man vorhersagen?
+Falls Ihnen der Datensatz nichts sagt, kann ich kurz erklären was man mithilfe ML vorhersagen kann:
+- Klassifikation des Objekttyps (GALAXY, QSO, STAR)
+- Vorhersage des Redshifts
+- Unterscheidung zwischen Sternen und fernen Objekten
+- Bestimmung von ungewöhnlichen Objekten (Outlier Detection)
