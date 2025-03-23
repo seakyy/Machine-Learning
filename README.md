@@ -67,3 +67,8 @@ Falls Ihnen der Datensatz nichts sagt, kann ich kurz erklären was man mithilfe 
 - Vorhersage des Redshifts
 - Unterscheidung zwischen Sternen und fernen Objekten
 - Bestimmung von ungewöhnlichen Objekten (Outlier Detection)
+
+
+
+# Teil 2
+Für den zweiten Teil dieser LB, schauen sie sich die Jupyter Notebook Datei an.
