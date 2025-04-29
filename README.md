@@ -15,7 +15,7 @@ Ich habe diesen Datensatz gewählt, da die Klassifikation von Himmelsobjekten ei
 
 ## Datensatzbeschreibung
 
-Der Stellar Classification Dataset - SDSS17 enthält 100.000 Beobachtungen aus dem Sloan Digital Sky Survey (SDSS), einer der größten astronomischen Datenbanken. Ziel ist es, Machine-Learning-Modelle zu entwickeln, die basierend auf spektralen Merkmalen automatisch Sterne, Galaxien oder Quasare klassifizieren können.
+Der Stellar Classification Dataset - SDSS17 enthält 100.000 Beobachtungen aus dem Sloan Digital Sky Survey (SDSS), einer der grössten astronomischen Datenbanken. Ziel ist es, Machine-Learning-Modelle zu entwickeln, die basierend auf spektralen Merkmalen automatisch Sterne, Galaxien oder Quasare klassifizieren können.
 
 ### Beschreibung
 
@@ -28,14 +28,14 @@ u, g, r, i, z: Helligkeitswerte in verschiedenen Spektralbändern.
 
 class: Zielvariable (Stern, Galaxie oder Quasar).
 (Heisser Glaskörper - Lichterzeugung durch Kernfusion; Ansammlung von Sternen, Gas, Staub; Heller Kern einer galaxie - sehr weit entfernt)
-redshift: Maß für die Rotverschiebung – gibt Hinweise auf die Entfernung.
+redshift: Mass für die Rotverschiebung – gibt Hinweise auf die Entfernung.
 
 plate, MJD, fiber_ID: Technische Identifikatoren für die Beobachtung.
 
 
 ### Datenschutzmassnahmen
 
-Der Datensatz enthält keine persönlichen Daten und wurde ausschließlich für wissenschaftliche Zwecke erhoben.
+Der Datensatz enthält keine persönlichen Daten und wurde ausschliesslich für wissenschaftliche Zwecke erhoben.
 
 Alle Informationen sind frei verfügbar und öffentlich zugänglich.
 
@@ -45,7 +45,7 @@ Die Daten stammen von einer astronomischen Himmelsbeobachtung und beeinträchtig
 
 ### Einschränkungen des Datensatzes
 
-Ein Nachteil dieses Datensatzes ist, dass er keine Zeitreiheninformationen enthält – zukünftige oder sich verändernde Objekte können nicht vorhergesagt werden. Zudem sind einige Kategorien möglicherweise nicht gleichmäßig verteilt, was zu Class Imbalance führen könnte. Eine Verbesserung wäre die Ergänzung weiterer astronomischer Merkmale oder neuer Daten aus zukünftigen SDSS-Releases.
+Ein Nachteil dieses Datensatzes ist, dass er keine Zeitreiheninformationen enthält – zukünftige oder sich verändernde Objekte können nicht vorhergesagt werden. Zudem sind einige Kategorien möglicherweise nicht gleichmässig verteilt, was zu Class Imbalance führen könnte. Eine Verbesserung wäre die Ergänzung weiterer astronomischer Merkmale oder neuer Daten aus zukünftigen SDSS-Releases.
 
 
 ## Mögliche Machine-Learning-Anwendungen
